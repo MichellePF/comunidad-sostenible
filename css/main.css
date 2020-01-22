@@ -1,0 +1,8 @@
+.nav-link::after {
+    content: "|";
+    padding: 0 2rem;
+    color:grey;
+}
+.navbar-nav>.nav-item:last-child > .nav-link:after {
+    content:none !important;
+} 
